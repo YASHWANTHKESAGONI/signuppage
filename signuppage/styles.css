@@ -1,0 +1,78 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+form label{
+    display: block;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,rgb(17, 226, 245),white);
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+     margin: 2px;
+}
+.signup-header p{
+    font-size: 0.8rem;
+}
+.signup-body{
+    margin: 20px 0px;
+}
+.signup-body p{
+    margin: 10px 0px;
+}
+.signup-body p label{
+    display: block;
+}
+.signup-body p input {
+      padding: 10px;
+       width: 100%; /*this is imporant why it is only taking certain amount and y not full */
+       border: black 2px solid;
+       border-radius: 4px;
+}
+.signup-body p input[type="submit"]{
+    background-color: rgb(23, 96, 96);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+.signup-body p input[type="submit"]:hover{
+   background-color: rgb(21, 234, 88);
+}
+.signup-footer{
+    text-align: center;
+}
+.circle{
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   background: linear-gradient(to top left,rgb(17, 226, 245),white);
+}
+.c1{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+}
